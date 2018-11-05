@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="music" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="music_app" parent="AppTheme">
+        <item name="android:textColorPrimary">@color/text_color_primary</item>
+        <item name="android:colorBackground">@color/text_color_primary</item>
+        <item name="android:windowBackground">@color/text_color_primary</item>
+        <item name="android:statusBarColor">@color/colorAccent</item>
+        <item name="android:navigationBarColor">?android:attr/colorAccent</item>
+    </style>
+</resources>
